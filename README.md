@@ -1,1 +1,1 @@
-# Deploy-Wordpress-using-AWS-EC2-RDS
+# Deploy-Wordpress-using-AWS-EC2 & RDS
