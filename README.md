@@ -52,4 +52,48 @@ Check the website with the instance ip
 
 ![17](https://user-images.githubusercontent.com/60690689/127743104-c5165921-d258-4584-aafd-82aa077ea56b.jpg)
 
-Here we need a database to save our data, we have to set up a database.
+# Set up the RDS database on AWS
+
+As wordpress stores data at the backend in MySQL Database server. Therefore, setup a MySQL server using AWS RDS service using Free Tier
+follow the steps
+
+![18](https://user-images.githubusercontent.com/60690689/127743209-0a72aaba-1bae-47dd-afcd-8ff58a2c8170.jpg)
+![19](https://user-images.githubusercontent.com/60690689/127743221-72ac5072-3815-49a1-bf38-50310dcc7354.jpg)
+![20](https://user-images.githubusercontent.com/60690689/127743230-cccdcd10-ca4c-4661-993f-33e2f5991b3a.jpg)
+![21](https://user-images.githubusercontent.com/60690689/127743239-ab8fad21-dfde-43ce-ba31-dc3986d80734.jpg)
+![22](https://user-images.githubusercontent.com/60690689/127743243-8ac58bcd-30aa-41b2-b49d-e63f7582221c.jpg)
+![23](https://user-images.githubusercontent.com/60690689/127743258-d0c0badc-44c2-4a51-886e-9cee0a612bc2.jpg)
+![24](https://user-images.githubusercontent.com/60690689/127743263-ed3ec054-4419-4f82-8ce0-9ec43ef9e6eb.jpg)
+
+Our RDS is created
+
+![25](https://user-images.githubusercontent.com/60690689/127743285-a780bc1f-3d03-4f63-8ff6-b6629c04dbbb.jpg)
+
+# Steps to provide the endpoint/connection string to the WordPress
+
+![26](https://user-images.githubusercontent.com/60690689/127743353-de911463-9f9e-4728-9566-f700fc0cf963.jpg)
+![27](https://user-images.githubusercontent.com/60690689/127743360-308b4634-84ab-432a-bd6d-c05f33424775.jpg)
+
+here we see, we are unable to connect to the database we have to change some inbound rule in security group 
+
+![28](https://user-images.githubusercontent.com/60690689/127743408-a29e2af6-3e1b-44bc-be08-03c19a0b150e.jpg)
+
+Again connect with the database...
+
+![29](https://user-images.githubusercontent.com/60690689/127743429-8639a640-3cbd-4273-b628-0ebbd382cf1a.jpg)
+![30](https://user-images.githubusercontent.com/60690689/127743438-fd4685cd-bb4b-4a66-80fa-88f9417176c6.jpg)
+![31](https://user-images.githubusercontent.com/60690689/127743459-1b271824-8aa9-4ec2-8252-efd93f8c091d.jpg)
+![32](https://user-images.githubusercontent.com/60690689/127743463-d5bb459c-fd1c-46f0-bb1d-ef06976b4df3.jpg)
+
+Now we have to Set up the config file ..
+
+![33](https://user-images.githubusercontent.com/60690689/127743487-122906b8-433e-4c88-b3d7-0af0a06607cb.jpg)
+![34](https://user-images.githubusercontent.com/60690689/127743495-c169f304-2dd4-4fba-8609-eed2781d87b8.jpeg)
+
+Let's Login to the wodpress site ...
+
+![35](https://user-images.githubusercontent.com/60690689/127743515-de071077-902d-4adc-99b6-bc8808f574e9.jpg)
+![36](https://user-images.githubusercontent.com/60690689/127743520-cefc7a3f-ba8b-4c4a-94aa-d04dbe3f21de.jpg)
+![37](https://user-images.githubusercontent.com/60690689/127743534-239c5b80-0398-42f0-b69a-e8b496bc738a.jpg)
+
+## THANK YOU
