@@ -14,3 +14,5 @@
 
 Go to your AWS console and launch an instance. follow the ScreenShot
 ![1](https://user-images.githubusercontent.com/60690689/127742745-47cfdb7f-48cb-45d7-a72b-bad93bdcd6b7.jpg)
+![2](https://user-images.githubusercontent.com/60690689/127742762-7537cd89-18db-49cd-81d1-b566c82fb18f.jpg)
+![3](https://user-images.githubusercontent.com/60690689/127742764-4d0770d2-48e0-4508-9727-fd5c1a3c4267.jpg)
